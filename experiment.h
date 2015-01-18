@@ -29,7 +29,7 @@ namespace AnCO {
                 aco_pheromone_evaporation = aco_algorithm::pheromone_evaporation;
 
                 pheromone_sensitivity = prox_algorithm::pheromone_sensitivity;
-                proximity_decay_factor = prox_algorithm::proximity_decay_factor;
+                proximity_decay = prox_algorithm::proximity_decay;
                 gamma = prox_algorithm::gamma;
                 delta = prox_algorithm::delta;
                 }
@@ -68,7 +68,7 @@ namespace AnCO {
 
             // Proximity
             float pheromone_sensitivity;
-            float proximity_decay_factor;
+            float proximity_decay;
             float gamma;
             float delta;
         };
